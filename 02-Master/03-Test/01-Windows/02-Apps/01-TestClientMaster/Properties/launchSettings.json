@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "TestCppMaster": {
+      "commandName": "Project",
+      "workingDirectory": "..\\..\\03-DebugBench",
+      "nativeDebugging": true,
+      "hotReloadEnabled": false,
+      "remoteDebugEnabled": false
+    }
+  }
+}

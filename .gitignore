@@ -1,0 +1,6 @@
+02-Master/.vs/
+02-Master/02-Code/02-Specific/01-WinDLL/03-Build/BaHartMasterDLL/
+02-Master/03-Test/01-Windows/02-Apps/01-TestClientMaster/obj/
+03-Slave/.vs/
+03-Slave/02-Code/02-Specific/01-WinDLL/03-Build/BaHartSlaveDLL/
+03-Slave/03-Test/01-Windows/02-Apps/01-TestClientSlave/obj/

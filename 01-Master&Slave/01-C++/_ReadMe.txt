@@ -1,0 +1,1 @@
+This directory is intended to accommodate future C++ modules that have identical content for master and slave.

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TestCppMaster": {
+      "commandName": "Project",
+      //"workingDirectory": "C:\\_Work\\05-Hart-MS-C++-7.6\\02-Code\\02-Device\\03-Test\\01-Windows\\03-DebugBench",
+      "workingDirectory": "..\\..\\03-DebugBench",
+      "nativeDebugging": true,
+      "hotReloadEnabled": false,
+      "remoteDebugEnabled": false
+    }
+  }
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartCoding.h" />
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartConsts.h" />
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartFrame.h" />
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\Monitor.h" />
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\OSAL.h" />
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\WbHart_Typedefs.h" />
+    <ClInclude Include="..\..\01-Common\01-Interface\HartMasterIface.h" />
+    <ClInclude Include="..\..\01-Common\01-Interface\WbHartM_Structures.h" />
+    <ClInclude Include="..\..\01-Common\01-Interface\WbHartM_Typedefs.h" />
+    <ClInclude Include="..\..\01-Common\01-Interface\WbHartUser.h" />
+    <ClInclude Include="..\..\01-Common\02-AppLayer\HartChannel.h" />
+    <ClInclude Include="..\..\01-Common\03-Layer7\HartService.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\01-Uart\HMuartLayer2.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\01-Uart\HMuartMacPort.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\01-Uart\HMuartProtocol.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\02-HartIp\HMipLayer2.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\02-HartIp\HMipMacPort.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\02-HartIp\HMipProtocol.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\Monitor.h" />
+    <ClInclude Include="01-Shell\BaHartMaster.h" />
+    <ClInclude Include="02-OSAL\WinSystem.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartCoding.cpp" />
+    <ClCompile Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartFrame.cpp" />
+    <ClCompile Include="..\..\..\..\01-Master&amp;Slave\01-C++\Monitor.cpp" />
+    <ClCompile Include="..\..\01-Common\01-Interface\HartMasterIface.cpp" />
+    <ClCompile Include="..\..\01-Common\02-AppLayer\HartChannel.cpp" />
+    <ClCompile Include="..\..\01-Common\03-Layer7\HartService.cpp" />
+    <ClCompile Include="..\..\01-Common\04-Layer2\01-Uart\HMuartLayer2.cpp" />
+    <ClCompile Include="..\..\01-Common\04-Layer2\01-Uart\HMuartProtocol.cpp" />
+    <ClCompile Include="..\..\01-Common\04-Layer2\02-HartIp\HMipLayer2.cpp" />
+    <ClCompile Include="..\..\01-Common\04-Layer2\02-HartIp\HMipProtocol.cpp" />
+    <ClCompile Include="..\..\01-Common\HartFrameMaster.cpp" />
+    <ClCompile Include="01-Shell\BaHartMaster.cpp" />
+    <ClCompile Include="02-OSAL\01-Uart\HMuartMacPort.cpp" />
+    <ClCompile Include="02-OSAL\02-HartIp\HMipMacPort.cpp" />
+    <ClCompile Include="02-OSAL\MonitorMaster.cpp" />
+    <ClCompile Include="02-OSAL\OSAL.cpp" />
+    <ClCompile Include="02-OSAL\WinSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BaHartMasterDLL.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{aac8f241-35df-483f-a0a0-25fb1dd3a15b}</ProjectGuid>
+    <RootNamespace>CppHartMaster</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BaHartMasterDLL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\03-Test\01-Windows\03-DebugBench\</OutDir>
+    <IntDir>03-Build\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>BaHartMaster</TargetName>
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;DLL_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;DEBUG_TIMING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <PrecompiledHeaderOutputFile />
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>01-Shell;02-OSAL;02-OSAL\01-Uart;02-OSAL\02-HartIp;..\..\01-Common;..\..\01-Common\01-Interface;..\..\01-Common\02-AppLayer;..\..\01-Common\03-Layer7;..\..\01-Common\04-Layer2;..\..\01-Common\04-Layer2\01-Uart;..\..\01-Common\04-Layer2\02-HartIp;..\..\..\..\01-Master&amp;Slave\01-C++</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>true</EnableUAC>
+      <OutputFile>$(OutDir)BaHartMaster.dll</OutputFile>
+      <Version>7.6</Version>
+      <AdditionalDependencies>$(CoreLibraryDependencies);winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02-Specific%28Windows%29">
+      <UniqueIdentifier>{7697bdd3-f4c9-434a-83e2-dc313765daac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-Specific%28Windows%29\01-Shell">
+      <UniqueIdentifier>{5e0057b4-37ff-4c26-b8fd-3a1f1dc760b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-Specific%28Windows%29\02-OSAL">
+      <UniqueIdentifier>{d0112a1b-c851-4d07-819d-f151660c057c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-Specific%28Windows%29\02-OSAL\01-Uart">
+      <UniqueIdentifier>{ed2ab1d9-e4b2-46d8-b504-339df668fdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-Specific%28Windows%29\02-OSAL\02-HartIp">
+      <UniqueIdentifier>{150f0a62-8f53-4a0d-9601-9af75209265a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00-Master&amp;Slave">
+      <UniqueIdentifier>{6a62fe5e-991c-4a32-8662-f223d80308a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Master">
+      <UniqueIdentifier>{f4afb99a-3d1e-4810-b0f4-380c9cfecc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Master\01-Interface">
+      <UniqueIdentifier>{65064645-c8f1-4d50-a7e7-2fe654fdb87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Master\02-AppLayer">
+      <UniqueIdentifier>{96e88c8e-f145-4c0a-bc4f-692578d8d7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Master\03-Layer7">
+      <UniqueIdentifier>{fdb90219-9b84-4046-b7c8-e1d03a197c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Master\04-Layer2">
+      <UniqueIdentifier>{e4bf8fd6-dccb-458b-8432-4a3482187e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Master\04-Layer2\02-HartIp">
+      <UniqueIdentifier>{d85cea1e-a73c-4053-af82-10cd750bf68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Master\04-Layer2\01-Uart">
+      <UniqueIdentifier>{e2e39e73-f215-4f30-a4c9-c2f16732349e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="02-OSAL\WinSystem.h">
+      <Filter>02-Specific%28Windows%29\02-OSAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\01-Interface\HartMasterIface.h">
+      <Filter>01-Master\01-Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\01-Interface\WbHartM_Structures.h">
+      <Filter>01-Master\01-Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\01-Interface\WbHartM_Typedefs.h">
+      <Filter>01-Master\01-Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\01-Interface\WbHartUser.h">
+      <Filter>01-Master\01-Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\02-AppLayer\HartChannel.h">
+      <Filter>01-Master\02-AppLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\03-Layer7\HartService.h">
+      <Filter>01-Master\03-Layer7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\04-Layer2\01-Uart\HMuartLayer2.h">
+      <Filter>01-Master\04-Layer2\01-Uart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\04-Layer2\01-Uart\HMuartMacPort.h">
+      <Filter>01-Master\04-Layer2\01-Uart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\04-Layer2\01-Uart\HMuartProtocol.h">
+      <Filter>01-Master\04-Layer2\01-Uart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\04-Layer2\02-HartIp\HMipLayer2.h">
+      <Filter>01-Master\04-Layer2\02-HartIp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\04-Layer2\02-HartIp\HMipMacPort.h">
+      <Filter>01-Master\04-Layer2\02-HartIp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\01-Common\04-Layer2\02-HartIp\HMipProtocol.h">
+      <Filter>01-Master\04-Layer2\02-HartIp</Filter>
+    </ClInclude>
+    <ClInclude Include="01-Shell\BaHartMaster.h">
+      <Filter>02-Specific%28Windows%29\01-Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\01-Common\04-Layer2\Monitor.h">
+      <Filter>01-Master\04-Layer2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartConsts.h">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartFrame.h">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\OSAL.h">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\WbHart_Typedefs.h">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartCoding.h">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\01-Master&amp;Slave\01-C++\Monitor.h">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02-OSAL\MonitorMaster.cpp">
+      <Filter>02-Specific%28Windows%29\02-OSAL</Filter>
+    </ClCompile>
+    <ClCompile Include="02-OSAL\OSAL.cpp">
+      <Filter>02-Specific%28Windows%29\02-OSAL</Filter>
+    </ClCompile>
+    <ClCompile Include="02-OSAL\WinSystem.cpp">
+      <Filter>02-Specific%28Windows%29\02-OSAL</Filter>
+    </ClCompile>
+    <ClCompile Include="02-OSAL\01-Uart\HMuartMacPort.cpp">
+      <Filter>02-Specific%28Windows%29\02-OSAL\01-Uart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\HartFrameMaster.cpp">
+      <Filter>01-Master</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\01-Interface\HartMasterIface.cpp">
+      <Filter>01-Master\01-Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\02-AppLayer\HartChannel.cpp">
+      <Filter>01-Master\02-AppLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\03-Layer7\HartService.cpp">
+      <Filter>01-Master\03-Layer7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\04-Layer2\01-Uart\HMuartLayer2.cpp">
+      <Filter>01-Master\04-Layer2\01-Uart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\04-Layer2\01-Uart\HMuartProtocol.cpp">
+      <Filter>01-Master\04-Layer2\01-Uart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\04-Layer2\02-HartIp\HMipLayer2.cpp">
+      <Filter>01-Master\04-Layer2\02-HartIp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\01-Common\04-Layer2\02-HartIp\HMipProtocol.cpp">
+      <Filter>01-Master\04-Layer2\02-HartIp</Filter>
+    </ClCompile>
+    <ClCompile Include="01-Shell\BaHartMaster.cpp">
+      <Filter>02-Specific%28Windows%29\01-Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="02-OSAL\02-HartIp\HMipMacPort.cpp">
+      <Filter>02-Specific%28Windows%29\02-OSAL\02-HartIp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartFrame.cpp">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\01-Master&amp;Slave\01-C++\HartCoding.cpp">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\01-Master&amp;Slave\01-C++\Monitor.cpp">
+      <Filter>00-Master&amp;Slave</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BaHartMasterDLL.rc" />
+  </ItemGroup>
+</Project>

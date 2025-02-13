@@ -1,0 +1,1 @@
+Reserved for a nRF52xxx project.

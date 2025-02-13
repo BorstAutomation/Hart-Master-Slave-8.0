@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 17.9
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Solution Items & Docu", "01-Solution Items & Docu", "{DDC07F2D-2A8D-40D7-BA98-DA0F0F998CED}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		01-Docu\Hart-At-a-Glance.pdf = 01-Docu\Hart-At-a-Glance.pdf
+		01-Docu\DataSheet-Hart-Master-C++-8.0.pdf = 01-Docu\DataSheet-Hart-Master-C++-8.0.pdf
+		01-Docu\ReleaseNotes.md = 01-Docu\ReleaseNotes.md
+		01-Docu\Source-Code-Hart-Master-C++-8.0.pdf = 01-Docu\Source-Code-Hart-Master-C++-8.0.pdf
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaHartMasterDLL", "02-Code\02-Specific\01-WinDLL\HartMasterDLL.vcxproj", "{AAC8F241-35DF-483F-A0A0-25FB1DD3A15B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaTestHartMaster", "03-Test\01-Windows\02-Apps\01-TestClientMaster\BaTestHartMaster.csproj", "{A90922B8-7BD0-4424-8716-C1F254659863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC8F241-35DF-483F-A0A0-25FB1DD3A15B}.Debug|x86.ActiveCfg = Debug|Win32
+		{AAC8F241-35DF-483F-A0A0-25FB1DD3A15B}.Debug|x86.Build.0 = Debug|Win32
+		{A90922B8-7BD0-4424-8716-C1F254659863}.Debug|x86.ActiveCfg = Debug|x86
+		{A90922B8-7BD0-4424-8716-C1F254659863}.Debug|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F9692A6-FEA7-4397-B7CC-A2E03182BB0A}
+	EndGlobalSection
+EndGlobal
