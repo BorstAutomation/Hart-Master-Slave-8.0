@@ -22,9 +22,9 @@ Both implementations include the ability to create a **Windows simulation of fie
 
 Further details about the two software/firmware packages can be found in a data sheet.
 
-Data Sheet Master: https://www.borst-automation.com/downloads/DataSheet-Hart-Master-C++-8.0.pdf
+Data Sheet Master: https://walter-borst.de/documents/DataSheet-Hart-Master-C++-8.0.pdf
 
-Data Sheet Slave: https://www.borst-automation.com/downloads/DataSheet-Hart-Slave-C++-8.0.pdf
+Data Sheet Slave: https://walter-borst.de/documents/DataSheet-Hart-Slave-C++-8.0.pdf
 
 ## Getting Started
 
@@ -212,8 +212,8 @@ Kapitaen-Alexander-Strasse 39
 
 Fon: +49 4721 6985100
 
-E-Mail: HartTools@Borst-Automation.de
+E-Mail: Hart@walter-borst.de
 
-Home: www.Borst-Automation.de
+Home: www.walter-borst.de/hart-protocol-software.html
 
-Walter Borst, Cuxhaven, 14.2.2025
+Walter Borst, Cuxhaven, 18.10.2025
