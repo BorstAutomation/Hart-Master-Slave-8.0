@@ -1,6 +1,6 @@
-# Hart Slave and Master
+# Hart Communication Slave and Master
 
-## C++ Source Code for Embedded Devices
+## C++ Source Code for Real Time Systems
 
 In this repository you will find the source code for a Hart master and a slave that is designed to be used in an embedded system. The Hart protocol itself and the interfaces to the application are written in C++. I placed great importance on storing all functions and declarations that are independent of a slave or master in common directories. About **50 % of the source codes for slave and master** are shared by both applications.
 
