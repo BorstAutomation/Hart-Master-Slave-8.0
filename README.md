@@ -2,9 +2,9 @@
 
 ## C++ Source Code for Real Time Systems
 
-In this repository you will find the source code for a Hart master and a slave that is designed to be used in an embedded system. The Hart protocol itself and the interfaces to the application are written in C++. I placed great importance on storing all functions and declarations that are independent of a slave or master in common directories. About **50 % of the source codes for slave and master** are shared by both applications.
+In this repository you will find the c++ source code for a Hart Communication Protocol master and a slave that is designed to be used in an embedded real time systems system. The Hart protocol itself and the interfaces to the application are written in C++. I placed great importance on storing all functions and declarations that are independent of a slave or master in common directories. About **50 % of the source codes for slave and master** are shared by both applications.
 
-## HART (4..20) and HART IP
+## HART (4..20) and HART IP(Internet Protocol)
 
 Both classic **Hart (4..20 mA)** and the **Hart Ip** version are supported.
 
