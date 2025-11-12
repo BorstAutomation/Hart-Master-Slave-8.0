@@ -214,6 +214,4 @@ Fon: +49 4721 6985100
 
 E-Mail: Hart@walter-borst.de
 
-Home: www.walter-borst.de/02-hart/hart-protocol-software.html
-
-Walter Borst, Cuxhaven, 4.11.2025
+Walter Borst, Cuxhaven, 12.11.2025
